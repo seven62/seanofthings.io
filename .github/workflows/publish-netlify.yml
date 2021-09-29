@@ -28,7 +28,7 @@ delete-branch: true
 title: "publish: ${{ github.event.issue.title}}"
 body: |
             Automagically sprouted for publishing.
-            Merging will publish to: https://shazow.net/posts/${{ github.event.issue.title }}
+            Merging will publish to: https://seanofthings.io/posts/${{ github.event.issue.title }}
             Closes #${{ github.event.issue.number }}
           reviewers: "${{ github.repository_owner }}"
 commit-message: "post: ${{ github.event.issue.title }}"
